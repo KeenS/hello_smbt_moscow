@@ -1,0 +1,23 @@
+target all
+    sources
+       hello.sml
+       main.sml
+    end
+
+    option compiler = moscowml
+    option output = main
+    option smlflags = "-toplevel -i"
+    post hooks
+       ./main
+    end
+end
+
+
+
+target clean
+    pre hooks
+        rm -f main
+        rm -f *.uo
+        rm -f *.ui
+    end
+end
