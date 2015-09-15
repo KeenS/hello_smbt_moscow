@@ -4,7 +4,7 @@ An example smbt project.
 # Compilation
 prerequirments
 
-* [SML#](http://www.pllab.riec.tohoku.ac.jp/smlsharp/)
+* [MoscowML](http://mosml.org/)
 * [smbt](https://github.com/finrod/smbt)
 
 ```sh
